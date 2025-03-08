@@ -108,9 +108,9 @@ type Trabalhador = {
 };
 type EstudanteTrabalhador = Estudante & Trabalhador;
 const estudanteTrabalhador: EstudanteTrabalhador = {
-    nome: "Carlos",
+    nome: "Eduardo Akira Murata",
     curso: "Engenharia de Software",
-    empresa: "Tech Corp",
-    cargo: "Desenvolvedor Júnior"
+    empresa: "Itaú Unibanco",
+    cargo: "Anl de Eng de Ti Júnior"
 };
 console.log("Estudante Trabalhador:", estudanteTrabalhador);
